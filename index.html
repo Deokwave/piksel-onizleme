@@ -23,6 +23,9 @@
     .avatarlar img { width: 120px; height: 120px; }
     .avatarlar img.yuvarlak { border-radius: 50%; }
     .avatarlar img.kare { border-radius: 14px; }
+    .araclar { margin: 0; padding: 0; list-style: none; display: grid; gap: 6px; }
+    .araclar a { color: var(--mor); text-decoration: none; }
+    .araclar span { display: inline-block; min-width: 92px; margin: 0 8px; padding: 0 6px; font-size: 12px; color: var(--soluk); border: 1px solid var(--cizgi); }
     footer { text-align: center; font-size: 13px; color: var(--soluk); }
   </style>
 </head>
@@ -70,6 +73,19 @@
     <figure><img src="https://raw.githubusercontent.com/Deokwave/frame-generation/main/assets/banner.svg" alt="Frame Generation"></figure>
     <figure><img src="https://raw.githubusercontent.com/Deokwave/frc/main/assets/banner.svg" alt="FRC"></figure>
     <figure><img src="https://raw.githubusercontent.com/Deokwave/wavegen/main/assets/banner.svg" alt="Wavegen"></figure>
+  </section>
+
+  <section>
+    <h2>Bu görselleri çizen araçlar</h2>
+    <ul class="araclar">
+      <li><a href="https://github.com/Deokwave/piksel-atolye">piksel-atolye</a> <span>JavaScript</span> banner, buton ve panel üretici</li>
+      <li><a href="https://github.com/Deokwave/piksel-avatar">piksel-avatar</a> <span>Python</span> avatar çizici</li>
+      <li><a href="https://github.com/Deokwave/piksel-yazi">piksel-yazi</a> <span>TypeScript</span> piksel yazı tipi</li>
+      <li><a href="https://github.com/Deokwave/piksel-rozet">piksel-rozet</a> <span>PHP</span> piksel rozet</li>
+      <li><a href="https://github.com/Deokwave/piksel-sprite">piksel-sprite</a> <span>Dart</span> sprite çevirici</li>
+      <li><a href="https://github.com/Deokwave/piksel-terminal">piksel-terminal</a> <span>Rust</span> terminalde piksel yazı</li>
+      <li><a href="https://github.com/Deokwave/piksel-tema">piksel-tema</a> <span>CSS</span> piksel arayüz stilleri</li>
+    </ul>
   </section>
 
   <footer>© 2026 Deokwave</footer>
